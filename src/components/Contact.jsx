@@ -9,7 +9,7 @@ import { slideIn } from "../utils/motion";
 
 const Contact = () => {
   const formRef = useRef();
-  const [form, setform] = useState({
+  const [form, setForm] = useState({
     name: "",
     email: "",
     message: "",
@@ -19,7 +19,7 @@ const Contact = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
 
-    setform({ ...form, [name]: value });
+    setForm({ ...form, [name]: value });
   };
 
   const handleSubmit = (e) => {
@@ -117,7 +117,7 @@ const Contact = () => {
           <button
             type="submit"
             className="bg-tertiary py-3 px-8 outline-none 
-            w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+            w-auto text-white font-bold shadow-md shadow-primary rounded-xl"
           >
             {loading ? "Sending..." : "Send"}
           </button>

@@ -43,18 +43,17 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px]"
       >
-        Roseway Tech is a skilled team of programmers, specializing in devloping
-        a wide array of digital experiences. From dynamic websites,
-        user-friendly applications, and captivating web-based games to
-        cutting-edge blockchain solutions. Our mastery spans technologies like
-        JavaScript and React for seamless front-end development, as well as
-        Solidity for robust blockchain solutions. With a versatile skill set
-        across various languages and frameworks, we're here to transform your
-        visions into reality with expertise and innovation.
+        We're a skilled team of programmers, specializing in devloping digital
+        experiences. From dynamic websites, user-friendly applications, and
+        captivating web-based games to cutting-edge blockchain solutions. Our
+        mastery spans technologies like JavaScript and React for seamless
+        front-end development, as well as Solidity for robust blockchain
+        solutions. With a versatile skill set across various languages and
+        frameworks, we're here to transform your visions into reality.
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 flex justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
