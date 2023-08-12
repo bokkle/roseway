@@ -17,6 +17,8 @@ import {
   docker,
   meta,
   starbucks,
+  twitter,
+  fitbit,
   tesla,
   shopify,
   carrent,
@@ -116,26 +118,25 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Development",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Full Stack Development",
+    company_name: "Fitbit",
+    icon: fitbit,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2020 - April 2021",
     points: [
-      "Contracted to help improve upon the Starbucks mobile and web applications.",
-      "Implemented responsive design and ensured cross-browser/device compatibility.",
-      "Participated in code reviews and provided constructive feedback to other developers.",
+      "Engineered improvements to tracking capabilities and user experience through advanced algorithm optimization",
+      "Implemented seamless interface enhancements, ensuring a cohesive experience between the app and the watch",
     ],
   },
   {
-    title: "React Native Development",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Frontend Development",
+    company_name: "Twitter",
+    icon: twitter,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
     points: [
-      "Contributed to creating a more intuitive and user-friendly mobile app, aligning with Tesla's commitment to cutting-edge technology and customer satisfaction.",
-      "Collaborated with Tesla's development team as both consultants, and active programmers to enhance the user experience of their mobile app",
+      "Optimized and beautified both the web and mobile applications",
+      "Enhanced overall user experiece with advanced optimizations like code splitting and efficient lazy loading, significantly boosting application speed and overall performance",
     ],
   },
   {
@@ -143,7 +144,7 @@ const experiences = [
     company_name: "Shopify",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2022 - Oct 2022",
     points: [
       "Assisted Shopify in improving the functionality of their funnel, as well as enhance overall user satisfaction on their platform.",
       "Collaborated with Shopify's design and development teams to implement performance enhancements, streamline navigation, and ensure seamless functionality across different devices.",
@@ -165,26 +166,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but you guys proved me wrong.",
-    name: "Sara Lee",
+      "After going through 3 teams of blockchain developers, I thought it was impossible, you guys proved me wrong.",
+    name: "Sara Moniz",
     designation: "CFO",
-    company: "Acme Co",
+    company: "Apex Innovations",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Mitch does.",
     name: "Chris Shihad",
-    designation: "COO",
-    company: "DEF Corp",
+    designation: "CEO",
+    company: "DEF Strategies",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Pasquale optimized our website, our traffic increased by nearly 60%. We can't thank him enough!",
-    name: "Lisa Wang",
+      "After you optimized our website our traffic increased by nearly 60%. We can't thank you enough!",
+    name: "Danika Jiang",
     designation: "CTO",
-    company: "Wayne Enterprises",
+    company: "Gen Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];

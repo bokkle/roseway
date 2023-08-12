@@ -22,6 +22,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import fitbit from "./company/fitbit.png";
+import twitter from "./company/twitter.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -57,6 +59,8 @@ export {
   meta,
   shopify,
   starbucks,
+  twitter,
+  fitbit,
   tesla,
   carrent,
   jobit,
