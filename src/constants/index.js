@@ -14,15 +14,14 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
+  solidity,
   twitter,
   fitbit,
-  tesla,
-  shopify,
+  pixelforge,
+  etherwave,
   carrent,
   jobit,
+  staghorn,
   tripguide,
   threejs,
 } from "../assets";
@@ -111,9 +110,9 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
-  },
+    name: "Solidity",
+    icon: solidity,
+  }
 ];
 
 const experiences = [
@@ -133,32 +132,32 @@ const experiences = [
     company_name: "Twitter",
     icon: twitter,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2021 - March 2022",
     points: [
       "Optimized and beautified both the web and mobile applications",
       "Enhanced overall user experiece with advanced optimizations like code splitting and efficient lazy loading, significantly boosting application speed and overall performance",
     ],
   },
   {
-    title: "Web Development",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Game Development",
+    company_name: "Pixel Forge",
+    icon: pixelforge,
     iconBg: "#383E56",
-    date: "March 2022 - Oct 2022",
+    date: "May 2022 - June 2023",
     points: [
-      "Assisted Shopify in improving the functionality of their funnel, as well as enhance overall user satisfaction on their platform.",
-      "Collaborated with Shopify's design and development teams to implement performance enhancements, streamline navigation, and ensure seamless functionality across different devices.",
+      "Designed and integrated interactive gameplay mechanics, elevating player engagement and immersion in Pixel Forge's upcoming metaverse game",
+      "Optimized performance by fine-tuning code logic, implementing efficient algorithms, and ensuring cross-browser compatibility, resulting in a smooth and responsive player experience",
     ],
   },
   {
-    title: "Full stack Development",
-    company_name: "Meta",
-    icon: meta,
+    title: "Blockchain Development",
+    company_name: "EtherWave",
+    icon: etherwave,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Utilizing expertise in emerging technologies to conceive, design, and execute immersive solutions that redefine user interactions and engagement within the Meta VR ecosystem.",
-      "Collaborate closely with designers, engineers, and content creators to create dynamic applications, continuously pushing the envelope of virtual reality capabilities and maintaining Meta's leadership in immersive technology innovation.",
+      "Developing ERC-20, ERC-721, and ERC-1155 tokens in conjunction with their corresponding frontend interfaces",
+      "Ensuring seamless and cohesive integration between the digital assets and their user interfaces",
     ],
   },
 ];
@@ -210,28 +209,28 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    // source_code_link: "https://cars-showcase-4q6s84wkz-js-mastery-pro.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Arborist Website",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A sophisticated website tailored for Staghorn Tree Service, an esteemed Canadian arborist company, harmonizing digital innovation with their arboricultural excellence.",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "html",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: staghorn,
+    source_code_link: "https://bokkle.github.io/staghorn/",
   },
   {
     name: "Trip Guide",
@@ -252,7 +251,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    // source_code_link: "https://github.com/",
   },
 ];
 

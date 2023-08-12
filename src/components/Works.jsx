@@ -2,7 +2,7 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, link } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -32,16 +32,18 @@ const ProjectCard = ({
             className="w-full h-full object-cover rounded-2xl"
           />
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={github}
-                alt="github"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
+            {source_code_link && (
+              <div
+                onClick={() => window.open(source_code_link, "_blank")}
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={link}
+                  alt="link to demo"
+                  className="w-1/2 h-1/2 object-contain"
+                />
+              </div>
+            )}
           </div>
         </div>
         <div className="mt-5">
@@ -73,7 +75,7 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Here are some of our recently completed projects. Each project is
-          briefly described with links to code repositories and live demos.
+          briefly described, and, if available, links to live demos.
         </motion.p>
       </div>
       <div className="mt-20 flex justify-center flex-wrap gap-7">

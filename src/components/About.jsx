@@ -46,8 +46,8 @@ const About = () => {
         className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px]"
       >
         We're a skilled team of programmers, specializing in devloping digital
-        experiences. From dynamic websites, user-friendly applications, and
-        captivating web-based games to cutting-edge blockchain solutions. Our
+        experiences. From dynamic and captivating websites, applications, and
+        web-based games to cutting-edge blockchain solutions. Our
         mastery spans technologies like JavaScript and React for seamless
         front-end development, as well as Solidity for robust blockchain
         solutions. With a versatile skill set across various languages and

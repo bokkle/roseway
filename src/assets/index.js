@@ -5,11 +5,11 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import link from './link.png'
 import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -21,16 +21,16 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import solidity from "./tech/solidity.png"
 
+import etherwave from "./company/etherwave.png"
+import pixelforge from "./company/pixelforge.png"
 import fitbit from "./company/fitbit.png";
 import twitter from "./company/twitter.png";
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import staghorn from "./staghorn.png"
 import tripguide from "./tripguide.png";
 
 export {
@@ -41,10 +41,10 @@ export {
   mobile,
   web,
   github,
+  link,
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
@@ -56,13 +56,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
+  solidity,
   twitter,
   fitbit,
-  tesla,
+  pixelforge,
+  etherwave,
   carrent,
   jobit,
+  staghorn,
   tripguide,
 };
