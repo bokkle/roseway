@@ -165,9 +165,9 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "After going through 3 teams of blockchain developers, I thought it was impossible, you guys proved me wrong.",
+      "After going through 2 teams of blockchain developers, I thought it was impossible, you guys proved me wrong...",
     name: "Sara Moniz",
-    designation: "CFO",
+    designation: "CCO",
     company: "Apex Innovations",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
@@ -176,15 +176,15 @@ const testimonials = [
       "I've never met a web developer who truly cares about their clients' success like Mitch does.",
     name: "Chris Shihad",
     designation: "CEO",
-    company: "DEF Strategies",
+    company: "DEF Consulting",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After you optimized our website our traffic increased by nearly 60%. We can't thank you enough!",
-    name: "Danika Jiang",
-    designation: "CTO",
-    company: "Gen Enterprises",
+      "You optimized our website and traffic increased by nearly 60%. We can't thank you enough!",
+    name: "Danika Li",
+    designation: "CEO",
+    company: "NeoTokyo Apparel",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];

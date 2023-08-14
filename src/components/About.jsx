@@ -45,13 +45,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px]"
       >
-        We're a skilled team of programmers, specializing in devloping digital
-        experiences. From dynamic and captivating websites, applications, and
-        web-based games to cutting-edge blockchain solutions. Our
-        mastery spans technologies like JavaScript and React for seamless
-        front-end development, as well as Solidity for robust blockchain
-        solutions. With a versatile skill set across various languages and
-        frameworks, we're here to transform your visions into reality.
+        We're a proficient team of programmers, dedicated to devloping engaging
+        digital experiences. Our expertise ranges from creating dynamic and
+        captivating websites, applications, and web-based games to pioneering
+        blockchain solutions. With a diverse skill set encompassing multiple
+        languages and frameworks, we're committed to turning your visions into
+        reality.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10 flex justify-center">
         {services.map((service, index) => (
