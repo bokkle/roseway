@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { menu, close } from "../assets";
-import { rosewaylogow } from "../assets";
+// import { rosewaylogow } from "../assets";
+import { rosewaylogos } from "../assets"
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -12,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+      className={`${styles.paddingX} w-full flex items-center py-2 fixed top-0 z-20 bg-primary`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
@@ -24,11 +25,11 @@ const Navbar = () => {
           }}
         >
           <img
-            src={rosewaylogow}
+            src={rosewaylogos}
             alt="logo"
-            className="w-9 h-9 object-contain"
+            className="w-10 h-10 object-contain md:w-14 md:h-14 md:object-contain"
           />
-          <p className="text-white text-[20px] font-bold cursor-pointer">
+          <p className="text-white text-[22px] font-bold cursor-pointer hidden sm:flex">
             Roseway
           </p>
         </Link>

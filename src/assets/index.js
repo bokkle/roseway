@@ -1,3 +1,4 @@
+import rosewaylogos from "./rosewaylogos.png"
 import rosewaylogow from "./rosewaylogow.svg";
 import logo from "./logo.svg";
 import backend from "./backend.png";
@@ -34,6 +35,7 @@ import staghorn from "./staghorn.png"
 import tripguide from "./tripguide.png";
 
 export {
+  rosewaylogos,
   rosewaylogow,
   logo,
   backend,
