@@ -168,22 +168,22 @@ const testimonials = [
       "After going through 2 teams of blockchain developers, I thought it was impossible, you guys proved me wrong...",
     name: "Sara Moniz",
     designation: "CCO",
-    company: "Apex Innovations",
+    company: "Sunwell Innovations",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Mitch does.",
-    name: "Chris Shihad",
+    name: "Ajay Shihad",
     designation: "CEO",
-    company: "DEF Consulting",
+    company: "VSR Consulting",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "You optimized our website and traffic increased by nearly 60%. We can't thank you enough!",
+      "You optimized our website and organic traffic increased by nearly 60%. We can't thank you enough!",
     name: "Danika Li",
-    designation: "CEO",
+    designation: "CMO",
     company: "NeoTokyo Apparel",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },

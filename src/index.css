@@ -19,6 +19,11 @@
   display: block;
 }
 
+.purple-gradient {
+  background: #7653dd;
+  background: linear-gradient(180deg, #7653dd, #371373);
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(

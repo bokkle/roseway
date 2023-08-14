@@ -56,15 +56,15 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 purple-gradient absolute top-20 right-0 left-0 justify-center border-2 border-solid border-cyan-500 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
-            <ul className="list-none flex justify-end items-start flex-col gap-4">
+            <ul className="list-none flex justify-end align-center items-center flex-col gap-4">
               {navLinks.map((Link) => (
                 <li
                   key={Link.id}
                   className={`${
                     active === Link.title ? "text-white" : "text-secondary"
-                  } font-poppins font-medium cursor-pointer text-[16px]`}
+                  } font-poppins font-medium cursor-pointer text-[20px]`}
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(Link.title);

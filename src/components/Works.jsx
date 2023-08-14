@@ -31,11 +31,12 @@ const ProjectCard = ({
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
           />
+
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             {source_code_link && (
               <div
                 onClick={() => window.open(source_code_link, "_blank")}
-                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer absolute top-0 right-0 transform hover:scale-105 transition-all duration-300"
               >
                 <img
                   src={link}
@@ -75,7 +76,7 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Here are some of our recently completed projects. Each project is
-          briefly described, and, if available, links to live demos.
+          briefly described, and, if available, will link to a live demo.
         </motion.p>
       </div>
       <div className="mt-20 flex justify-center flex-wrap gap-7">
